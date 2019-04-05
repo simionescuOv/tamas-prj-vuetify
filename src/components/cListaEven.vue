@@ -1,5 +1,5 @@
 <template>
-    <v-layout align-start justify-center row fill-height class="green ">
+    <v-layout align-start justify-center row fill-height :class="culoareFundal">
        <v-flex xs12 md9 shrink>
             <v-card class="ma-3 " elevation='12'>
               <!-- <h2 class="title font-weight-medium pt-3 pl-2"> Detalii </h2> -->
@@ -72,7 +72,9 @@
                 valoare:'xxxx'
             },
         ],
-        culoareEven: 'grey lighten-2 '
+        culoareEven: 'grey lighten-2 ',
+        culoareFundal:fundal
+        
       }
     },
     methods:{
