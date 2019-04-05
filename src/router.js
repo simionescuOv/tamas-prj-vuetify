@@ -17,7 +17,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/itemX',
+      path: '/itemx',
       name: 'itemx',
       component: vItemX
     },

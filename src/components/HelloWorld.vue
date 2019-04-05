@@ -14,7 +14,7 @@
       </v-flex>
 
       <v-flex mb-2 class="grey lighten-2">
-        <a href="/itemX" class="title"
+        <a href="/itemx" class="title"
         >go to pagina item XXXX</a>
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Vuetify
