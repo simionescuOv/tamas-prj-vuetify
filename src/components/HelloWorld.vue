@@ -4,7 +4,7 @@
       text-xs-center
       wrap
     >
-      <v-flex xs12>
+      <v-flex xs12 class="green lighten-3">
         <v-img
           :src="require('../assets/logo.svg')"
           class="my-3"
@@ -13,7 +13,9 @@
         ></v-img>
       </v-flex>
 
-      <v-flex mb-4>
+      <v-flex mb-2 class="grey lighten-2">
+        <a href="/itemX" class="title"
+        >go to pagina item XXXX</a>
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Vuetify
         </h1>
@@ -24,8 +26,8 @@
         </p>
       </v-flex>
 
-      <v-flex
-        mb-5
+      <v-flex class="red lighten-4"
+        mb-3
         xs12
       >
         <h2 class="headline font-weight-bold mb-3">What's next?</h2>
@@ -43,9 +45,9 @@
         </v-layout>
       </v-flex>
 
-      <v-flex
+      <v-flex class="purple lighten-4"
         xs12
-        mb-5
+        mb-3
       >
         <h2 class="headline font-weight-bold mb-3">Important Links</h2>
 
@@ -62,7 +64,7 @@
         </v-layout>
       </v-flex>
 
-      <v-flex
+      <v-flex class="blue lighten-4"
         xs12
         mb-5
       >

@@ -1,6 +1,6 @@
 <template>
     <v-layout align-start justify-center row fill-height class="green ">
-       <v-flex xs12 md9 >
+       <v-flex xs12 md9 shrink>
             <v-card class="ma-3 " elevation='12'>
               <!-- <h2 class="title font-weight-medium pt-3 pl-2"> Detalii </h2> -->
               <v-card-title primary-title
@@ -8,11 +8,13 @@
               >
                Detalii :
               </v-card-title>
-                <v-list class="ma-1">
+                <v-list class="ma-1"
+                        dense
+                >
                     <template  v-for='(item, index) in items'>
                     <v-list-tile   :key='index'
                                     :class="esteEven(index)" 
-                                    ripple
+                                    
                     >
                     <!-- <v-list-tile-content> -->
                             <v-list-tile-title>
